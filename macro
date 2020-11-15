@@ -1,0 +1,16 @@
+## Macro title: Custom Status Tag
+## Macro has a body: N
+##
+## Developed by: Tyler Wright
+## Date created: 12/11/2020
+## Installed by: Tyler Wright
+## GitHub: https://github.com/tylwright/confluence-custom-status-tag-macro
+
+## This is macro lets you create nice status-like objects.
+## @param Text:title=Text|type=string|desc=Text that will be visible inside the status element|option-showNameInPlaceholder=False|option-showValueInPlaceholder=True|required=True
+## @param Icon:title=Icon|type=string|desc=Choose an icon from Font Awesome 5|option-showNameInPlaceholder=False|option-showValueInPlaceholder=True|required=False
+## @param Color:title=Color|type=string|desc=Choose a color|option-showNameInPlaceholder=False|option-showValueInPlaceholder=True|required=True|default=#34cdeb
+
+<span class="status-macro aui-lozenge conf-macro output-inline" data-hasbody="false" data-macro-name="status" style="color: white; background-color: $!paramColor;">
+    <i class="$!paramIcon"></i>&nbsp;$!paramText
+</span>
