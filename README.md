@@ -1,6 +1,5 @@
 # confluence-custom-status-tag-macro
 Custom status tags for Confluence.  User macro.  Font Awesome for icon support is optional.
-
 ![Example Image, Assets](readme_files/example_assets.png)
 
 ## Installing
@@ -28,9 +27,7 @@ Custom status tags for Confluence.  User macro.  Font Awesome for icon support i
 10. Click _Save_.
 
 ## Using
-
 ![Example Image](readme_files/example_inserting.png)
-
 *Note:* Icons will not appear in preview.
 1. Login to Confluence.
 2. When editing a page, click the _+_ (_Insert more content_) button.
